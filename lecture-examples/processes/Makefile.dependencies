@@ -1,0 +1,57 @@
+simplesh-utils.o: simplesh-utils.c simplesh-utils.h \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+basic-fork.o: basic-fork.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+fork-puzzle.o: fork-puzzle.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+separate.o: separate.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+parent-child.o: parent-child.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+reap-as-they-exit.o: reap-as-they-exit.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+reap-in-fork-order.o: reap-in-fork-order.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+mysystem.o: mysystem.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+segfault.o: segfault.c
+simplesh.o: simplesh.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ simplesh-utils.h
+loop.o: loop.c
+pipe-experiment.o: pipe-experiment.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+subprocess.o: subprocess.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h
+signal-experiment.o: signal-experiment.c
+five-children.o: five-children.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ /afs/ir.stanford.edu/class/cs110/local/include/sleep-utils.h
+indistinguishable-pentuplets.o: indistinguishable-pentuplets.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ /afs/ir.stanford.edu/class/cs110/local/include/sleep-utils.h
+pentuplets.o: pentuplets.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ /afs/ir.stanford.edu/class/cs110/local/include/sleep-utils.h
+job-list-synchronization.o: job-list-synchronization.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ /afs/ir.stanford.edu/class/cs110/local/include/sleep-utils.h
+job-list-synchronization-improved.o: job-list-synchronization-improved.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ /afs/ir.stanford.edu/class/cs110/local/include/sleep-utils.h
+kill-puzzle.o: kill-puzzle.c
+simplesh-with-race-and-spin.o: simplesh-with-race-and-spin.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ simplesh-utils.h
+simplesh-with-spin.o: simplesh-with-spin.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ simplesh-utils.h
+simplesh-with-naps.o: simplesh-with-naps.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ simplesh-utils.h
+simplesh-with-pause.o: simplesh-with-pause.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ simplesh-utils.h
+simplesh-all-better.o: simplesh-all-better.c \
+ /afs/ir.stanford.edu/class/cs110/local/include/exit-utils.h \
+ simplesh-utils.h
